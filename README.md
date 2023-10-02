@@ -1,10 +1,11 @@
 # Metaphor Magic Storyteller
 
-<img src="./metaphor_main.png" width="500" alt="Main Page">
-Main Page
+<img src="./metaphor_main.png" width="750" alt="Main Page">
+<b>Main Page </b>
 
-<img src="./metaphor_story.png" width="300" alt="Story Page">
-Story Page
+
+<img src="./metaphor_story.png" width="750" alt="Story Page">
+<b>Story Page </b>
 
 
 This web application allows you to create unique and creative stories for kids based on book summaries through Metaphors and OpenAIs API. You can enter a prompt, and the application will generate a creative and unique story with text and images. Parents now don't have to worry about finding a new story every day for their kid.
