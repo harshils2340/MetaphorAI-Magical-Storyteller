@@ -2,7 +2,25 @@
 
 ![Metaphor Magic Storyteller](./path-to-your-image.png)
 
-This web application allows you to create unique and creative stories for kids based on book summaries. You can enter a prompt, and the application will generate a delightful story with images and text.
+This web application allows you to create unique and creative stories for kids based on book summaries through Metaphors and OpenAIs API. You can enter a prompt, and the application will generate a creative and unique story with text and images. Parents now don't have to worry about finding a new story every day for their kid.
+
+## How It Works
+
+1. **Enter a Prompt:**
+   - You start by entering a prompt, which serves as the basis for the story you want to create.
+
+2. **Python Script & Metaphor API:**
+   - Behind the scenes, a Python script uses machine learning models to generate book summaries related to your prompt.
+   - The app interacts with the Metaphor API to search for books related to the prompt.
+
+3. **Story Generation:**
+   - The top book summaries are selected, and their content is summarized and combined.
+   - The app uses GPT-3.5-turbo to create a unique and creative story for kids based on the combined book summaries.
+
+4. **Story Display:**
+   - The generated story is displayed on the Story Page.
+   - Each page of the story includes an image and text.
+   - You can navigate through the story pages using the "Previous" and "Next" buttons.
 
 ## Getting Started
 
@@ -29,24 +47,6 @@ This web application allows you to create unique and creative stories for kids b
      npm start
      ```
    - Open [http://localhost:3000](http://localhost:3000) in your web browser.
-
-## How It Works
-
-1. **Enter a Prompt:**
-   - You start by entering a prompt, which serves as the basis for the story you want to create.
-
-2. **Python Script & Metaphor API:**
-   - Behind the scenes, a Python script uses machine learning models to generate book summaries related to your prompt.
-   - The app interacts with the Metaphor API to search for books related to the prompt.
-
-3. **Story Generation:**
-   - The top book summaries are selected, and their content is summarized and combined.
-   - The app uses GPT-3.5-turbo to create a unique and creative story for kids based on the combined book summaries.
-
-4. **Story Display:**
-   - The generated story is displayed on the Story Page.
-   - Each page of the story includes an image and text.
-   - You can navigate through the story pages using the "Previous" and "Next" buttons.
 
 ## Contributing
 
