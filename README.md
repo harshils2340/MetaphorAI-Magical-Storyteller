@@ -1,6 +1,6 @@
 # Metaphor Magic Storyteller
 
-<img src="./metaphor_main.png" width="300" alt="Main Page">
+<img src="./metaphor_main.png" width="500" alt="Main Page">
 Main Page
 
 <img src="./metaphor_story.png" width="300" alt="Story Page">
