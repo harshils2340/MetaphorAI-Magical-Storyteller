@@ -1,0 +1,55 @@
+/* CSS styles for the main page */
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffe4b5; /* Moccasin background color */
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', cursive; /* Custom font */
+}
+
+/* CSS styles for the centered content */
+.centered-content {
+  text-align: center;
+  background-color: #ffffff; /* White container background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS styles for the project name */
+h1 {
+  font-size: 48px; /* Larger font size */
+  color: #ff4500; /* Orange-Red color */
+  margin-bottom: 20px;
+  font-family: 'Dancing Script', cursive; /* Custom font */
+}
+
+/* CSS styles for the input and button */
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 18px;
+  border: 2px solid #ff4500; /* Orange-Red border */
+  border-radius: 5px;
+  font-family: 'Comic Sans MS', cursive; /* Custom font */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff4500; /* Orange-Red button color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 24px; /* Larger font size */
+  border-radius: 5px;
+  font-family: 'Dancing Script', cursive; /* Custom font */
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff6347; /* Darker Orange-Red color on hover */
+}
