@@ -4,8 +4,8 @@ import json
 import argparse
 
 # Set your API keys here
-openai.api_key = "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"
-metaphor = Metaphor("3787a3cd-2e26-48d7-ae2a-3eff73d5f855")
+openai.api_key = "key"
+metaphor = Metaphor("key")
 
 parser = argparse.ArgumentParser(description='Process user input.')
 parser.add_argument('--userInput', type=str, help='User input from Node.js')
